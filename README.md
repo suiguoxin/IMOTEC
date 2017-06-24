@@ -1,1 +1,2 @@
 # IMOTEC
+Ce projet a but de developer un logiciel pour que les médecins d’un certain nombre de CHR expérimentent un nouveau protocole de soins en trombe-éastographie facilement par un logiciel Android au lieu des algorithmes sur les papiers.
