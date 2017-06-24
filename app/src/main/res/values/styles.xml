@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- style_tv_title-->
+    <style name="style_tv_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <!-- style_gridlayout_title-->
+    <style name="style_gridlayout_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <!-- style_gridlayout_tv-->
+    <style name="style_gridlayout_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <!-- style_gridlayout_et-->
+    <style name="style_gridlayout_et">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <!-- tv_nb_result-->
+    <style name="style_tv_nb_result">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorOperation</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- text_result-->
+    <style name="style_tv_result">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorOperation</item>
+    </style>
+
+    <!-- cb_result-->
+    <style name="style_cb_result">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorOperation</item>
+    </style>
+
+    <!-- tv_version-->
+    <style name="style_tv_version">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name = "style_tv_coorTitle">
+        <item name = "android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorCoorTitle</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name = "style_tv_coorNom">
+        <item name = "android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorCoorNom</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name = "style_tv_coor">
+        <item name = "android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorCoor</item>
+    </style>
+
+
+</resources>

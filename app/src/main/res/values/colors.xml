@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#217091</color>
+    <color name="colorPrimaryDark">#003399</color>
+    <color name="colorAccent">#FFD700</color>
+
+    <color name="colorTitle">#217091</color>
+    <color name="colorItem">#000000</color>
+    <color name="colorOperation">#DC143C</color>
+
+    <color name="colorGridLayout1">#BFBFBF</color>
+    <color name="colorGridLayout2">#C9C9C9</color>
+
+    <color name="colorEXTEM">#DC143C</color>
+    <color name="colorINTEM">#003399</color>
+    <color name="colorFIBTEM">#CC6600</color>
+    <color name="colorHEPTEM">#FFFFFF</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorCoorTitle">#CC6600</color>
+    <color name="colorCoorNom">#000000</color>
+    <color name="colorCoor">#000000</color>
+
+</resources>

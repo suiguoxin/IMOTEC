@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">IMOTEC</string>
+
+    <string name="btn_pre_operatoire">per-opératoire</string>
+    <string name="btn_post_operatoire">post-opératoire</string>
+    <string name="tv_periode">Choisir la Période</string>
+
+    <string name="imotec"><![CDATA[Intérêt MédicO-économique de la Thrombo-Elastographie,\ndans le management transfusionnel\ndes hémorragies péri-opératoires\nde chirurgies Cardiaques sous circulation extracorporelle]]></string>
+
+    <string name="tv_protamine">Protamine</string>
+    <string name="tv_title_resultat">"Propositions Thérapeutique : "</string>
+    <string name="tv_title_mesure">Mesures ROTEM</string>
+    <string name="tv_ct_hep">CT HEP</string>
+    <string name="tv_ct_in">CT IN</string>
+    <string name="tv_ct_ext">CT EXT</string>
+    <string name="tv_ct_fib">CT FIB</string>
+    <string name="tv_a10_hep">A10 HEP</string>
+    <string name="tv_a10_ext">A10 EXT</string>
+    <string name="tv_a10_fib">A10 FIB</string>
+
+    <string name="tv_title_corriger_et_traiter">Corriger et Traiter</string>
+
+    <string name="tv_transfusion_plaquettaire">Transfusion plaquettaire</string>
+    <string name="tv_fibrinogene">Fibrinogène</string>
+    <string name="tv_plasma">Plasma 10 à 15 mL/kg</string>
+    <string name="tv_ccp">Si besoin de remplissage, PLASMA 10 à 15ml/kg, sinon CCP(PPSB, 12.5 UI/kg)</string>
+    <string name="tv_acide">Acide tranexamique</string>
+    <string name="tv_tests_normaux">Tests normaux</string>
+    <string name="tv_tests_normaux_detail">Envisager exploration chirurgicale;\nEnvisager rFVIIa (Novoseven, 45-90µg/kg);\n(En deuxième intention, après au moins une exploration chirurgicale)</string>
+
+    <string name="tv_pre_operatoire"><![CDATA[-Saignement anormal (avis consensuel chirurgien et anesthésiste);\n-Saignement drains >50 ml/10 min ou 2ml/kg/h (1ml/kg sur 30min);\n-Retard de fermeture du sternum]]></string>
+    <string name="tv_post_operatoire"><![CDATA[-Saignement drains  >50 ml/10 min ou 2ml/kg/h (1ml/kg sur 30min);\n-Reprise chirurgicale pour épanchement péricardique\n]]></string>
+    <string name="tv_proposition"><![CDATA[-Hypothermie < 36°C;\n-Hypocalcémie Ca++ < 1,00 mmol/L;\n-Acidose pH < 7.30;\n-Anémie Hb < 8 g/dL (Ht < 24%);\n-Objective PAM > 60 et < 75 mm Hg]]></string>
+
+    <string name="tv_CT">CT/s</string>
+    <string name="tv_A10">A10/mm</string>
+    <string name="tv_ML">ML/%</string>
+
+    <string name="tv_EXTEM">EXTEM</string>
+    <string name="tv_INTEM">INTEM</string>
+    <string name="tv_FIBTEM">FIBTEM</string>
+    <string name="tv_HEPTEM">HEPTEM</string>
+
+    <string name="menu_algorithme">Algorithme</string>
+    <string name="menu_a_propos">À propos</string>
+    <string name="menu_quitter">Quitter</string>
+
+    <string name="btn_vider">Vider</string>
+
+    <string name="tv_version_app"><![CDATA[Application Version : 1.0]]></string>
+    <string name="tv_version_requirement"><![CDATA[System Requirement: Android 4.3]]></string>
+    <string name="tv_version_tuteur"><![CDATA[Tuteur : Jean-Yves MARTIN]]></string>
+    <string name="tv_version_auteur"><![CDATA[Réalisateur : Xiaoqing && Guoxin]]></string>
+
+</resources>

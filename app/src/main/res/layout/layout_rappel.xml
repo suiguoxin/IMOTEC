@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.guoxin.applicationprojet.ActivityRappel">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/style_tv_title"
+            android:text="@string/tv_periode" />
+
+        <ImageView
+            android:id="@+id/btn_enregistrer1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:src="@drawable/button_next_1" />
+    </RelativeLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup_periode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioBtn_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/btn_pre_operatoire" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_post_operatoire" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_periode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_black"
+        android:gravity="left"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/tv_pre_operatoire"
+        android:textColor="@color/colorItem"
+        android:textSize="16sp" />
+
+    <TextView
+        style="@style/style_tv_title"
+        android:paddingTop="5dp"
+        android:text="@string/tv_title_corriger_et_traiter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_black"
+            android:gravity="left"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/tv_proposition"
+            android:textColor="@color/colorItem"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/logo_chu" />
+
+        <TextView
+            android:id="@+id/tv_imotec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:text="@string/imotec"
+            android:fontFamily="serif"
+            android:textSize="8sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
